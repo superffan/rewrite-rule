@@ -5,6 +5,6 @@ obj['code'] = 200;
 obj['succeeded'] = true;
 body = JSON.stringify(obj);
 
-console.log(body);
+console.error(body);
 
 $done(body);
